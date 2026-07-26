@@ -54,27 +54,37 @@ DE4ULT | The Future Belongs To The Default
 
 
 <li>
-<a href="#home">Home</a>
+<button onclick="showSection('home')">
+Home
+</button>
 </li>
 
 
 <li>
-<a href="#about">About</a>
+<button onclick="showSection('about')">
+About
+</button>
 </li>
 
 
 <li>
-<a href="#tokenomics">Tokenomics</a>
+<button onclick="showSection('tokenomics')">
+Tokenomics
+</button>
 </li>
 
 
 <li>
-<a href="#roadmap">Roadmap</a>
+<button onclick="showSection('roadmap')">
+Roadmap
+</button>
 </li>
 
 
 <li>
-<a href="#contact">Contact</a>
+<button onclick="showSection('contact')">
+Contact
+</button>
 </li>
 
 
@@ -85,6 +95,7 @@ DE4ULT | The Future Belongs To The Default
 
 
 </header>
+
 
 
 
@@ -132,7 +143,7 @@ privacy, and global community power.
 
 
 
-<button>
+<button onclick="showSection('tokenomics')">
 
 ENTER ECOSYSTEM
 
@@ -156,7 +167,7 @@ ENTER ECOSYSTEM
 <!-- ABOUT SECTION -->
 
 
-<section class="section" id="about">
+<section class="section hidden-section" id="about">
 
 
 <h2>
@@ -191,7 +202,7 @@ security, and community at its foundation.
 <!-- TOKENOMICS -->
 
 
-<section class="section" id="tokenomics">
+<section class="section hidden-section" id="tokenomics">
 
 
 <h2>
@@ -268,9 +279,26 @@ Tokenomics
 
 
 
+
+<button onclick="copyContract()">
+
+COPY CONTRACT
+
+</button>
+
+
+
+
+
+<br><br>
+
+
+
+
+
 <a 
 class="buy-button"
-href="https://pancakeswap.finance/swap"
+href="https://pancakeswap.finance/swap?outputCurrency=0x27c0E497D6a997380649d8d0beB74a357C70b89A"
 target="_blank">
 
 BUY D4T
@@ -280,7 +308,9 @@ BUY D4T
 
 
 
+
 <br><br>
+
 
 
 
@@ -314,7 +344,7 @@ VIEW ON BNB SCAN
 <!-- ROADMAP -->
 
 
-<section class="section" id="roadmap">
+<section class="section hidden-section" id="roadmap">
 
 
 <h2>
@@ -407,7 +437,6 @@ D4L transactions.
 
 
 
-
 <p>
 
 Optional privacy controls will provide users
@@ -436,7 +465,7 @@ and innovation.
 <!-- CONTACT -->
 
 
-<section class="section" id="contact">
+<section class="section hidden-section" id="contact">
 
 
 <h2>
@@ -491,6 +520,7 @@ development updates, and ecosystem news.
 
 
 </section>
+
 
 
 
