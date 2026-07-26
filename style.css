@@ -802,5 +802,25 @@ html {
 
     }
 
+}
+/* DE4ULT LOGO */
+
+.logo img {
+
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    filter:drop-shadow(0 0 15px red);
+
+}
+
+
+.hero-logo {
+
+    width:180px;
+    height:180px;
+    object-fit:contain;
+    margin-bottom:25px;
+    filter:drop-shadow(0 0 30px red);
 
 }
