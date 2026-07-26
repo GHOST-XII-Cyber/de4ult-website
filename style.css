@@ -25,6 +25,7 @@ body {
 }
 
 
+
 /* =========================
         NAVIGATION
 ========================= */
@@ -41,18 +42,14 @@ body {
     background:
 
     linear-gradient(
-
     90deg,
-
     #000000,
-
-    #120000
-
+    #150000
     );
 
     border-bottom:
 
-    1px solid rgba(255,0,0,0.4);
+    1px solid rgba(255,0,0,0.5);
 
     position:relative;
     z-index:10;
@@ -71,9 +68,10 @@ body {
     filter:
 
     drop-shadow(0 0 10px red)
-    drop-shadow(0 0 25px red);
+    drop-shadow(0 0 30px red);
 
 }
+
 
 
 
@@ -110,18 +108,20 @@ body {
 
 .nav-links button:hover {
 
+
     color:red;
 
     text-shadow:
 
-    0 0 10px red;
+    0 0 15px red;
 
 }
 
 
 
+
 /* =========================
-        HERO SECTION
+        HERO
 ========================= */
 
 
@@ -151,11 +151,11 @@ body {
 
     circle at center,
 
-    #3a0000 0%,
+    #450000 0%,
 
-    #120000 30%,
+    #150000 35%,
 
-    #000000 75%
+    #000000 80%
 
     );
 
@@ -163,6 +163,7 @@ body {
     overflow:hidden;
 
 }
+
 
 
 
@@ -182,18 +183,19 @@ body {
 
     background:
 
+
     radial-gradient(
 
     circle,
 
-    rgba(255,0,0,.45),
+    rgba(255,0,0,.5),
 
     transparent 70%
 
     );
 
 
-    filter:blur(80px);
+    filter:blur(90px);
 
 
     animation:pulse 4s infinite alternate;
@@ -215,6 +217,7 @@ body {
 
 
 
+
 .hero-logo {
 
 
@@ -231,13 +234,17 @@ body {
 
     filter:
 
-    drop-shadow(0 0 15px red)
+    drop-shadow(0 0 20px red)
 
-    drop-shadow(0 0 40px red);
+    drop-shadow(0 0 50px red);
 
 
 }
 
+
+
+
+/* WHITE DE4ULT COIN TITLE */
 
 
 .hero-content h2 {
@@ -245,18 +252,27 @@ body {
 
     font-size:70px;
 
-    color:red;
+
+    color:white;
+
+
+    letter-spacing:6px;
+
+
+    text-transform:uppercase;
 
 
     text-shadow:
 
 
-    0 0 15px red,
+    0 0 10px white,
 
-    0 0 40px red;
+    0 0 30px rgba(255,255,255,.8);
 
 
 }
+
+
 
 
 
@@ -267,7 +283,12 @@ body {
 
     margin:20px 0;
 
+    color:white;
+
+
 }
+
+
 
 
 
@@ -281,11 +302,16 @@ body {
 
     font-size:20px;
 
-    color:#cccccc;
+
+    color:#dddddd;
+
 
     line-height:1.7;
 
+
 }
+
+
 
 
 
@@ -323,13 +349,15 @@ button {
 
     box-shadow:
 
-    0 0 20px red;
+
+    0 0 25px red;
 
 
     transition:.3s;
 
 
 }
+
 
 
 
@@ -348,6 +376,7 @@ button:hover {
 
 
 }
+
 
 
 
@@ -375,7 +404,7 @@ transform:scale(1);
 to {
 
 
-opacity:.8;
+opacity:.9;
 
 
 transform:scale(1.3);
@@ -385,7 +414,6 @@ transform:scale(1.3);
 
 
 }
-
 
 
 
@@ -416,7 +444,7 @@ transform:scale(1.3);
 
     #000000,
 
-    #090000
+    #120000
 
     );
 
@@ -435,6 +463,7 @@ transform:scale(1.3);
 
 
 
+
 .section h2 {
 
 
@@ -449,10 +478,12 @@ transform:scale(1.3);
 
     text-shadow:
 
-    0 0 15px red;
+
+    0 0 20px red;
 
 
 }
+
 
 
 
@@ -508,23 +539,24 @@ transform:scale(1.3);
 
     #000000,
 
-    #180000
+    #200000
 
     );
 
 
-    border:
 
-    1px solid red;
+    border:1px solid red;
+
 
 
     box-shadow:
 
 
-    0 0 30px rgba(255,0,0,.5);
+    0 0 35px rgba(255,0,0,.5);
 
 
 }
+
 
 
 
@@ -538,6 +570,7 @@ transform:scale(1.3);
 
 
 }
+
 
 
 
@@ -564,7 +597,7 @@ transform:scale(1.3);
 
 
 /* =========================
-        BUY BUTTONS
+ BUY BUTTONS
 ========================= */
 
 
@@ -596,7 +629,8 @@ transform:scale(1.3);
 
     box-shadow:
 
-    0 0 20px red;
+
+    0 0 25px red;
 
 
     transition:.3s;
@@ -622,6 +656,8 @@ transform:scale(1.3);
 
 
 
+
+
 /* =========================
         ROADMAP
 ========================= */
@@ -639,6 +675,7 @@ transform:scale(1.3);
 
 
 
+
 .roadmap h3 {
 
 
@@ -652,6 +689,7 @@ transform:scale(1.3);
 
 
     text-shadow:
+
 
     0 0 10px red;
 
@@ -689,6 +727,7 @@ transform:scale(1.3);
 
 
 
+
 .social-links a {
 
 
@@ -708,6 +747,7 @@ transform:scale(1.3);
 
 
     box-shadow:
+
 
     0 0 20px red;
 
@@ -729,8 +769,10 @@ transform:scale(1.3);
 
 
 
+
+
 /* =========================
-        BACKGROUND EFFECT
+        GLOBAL RED EFFECT
 ========================= */
 
 
@@ -756,7 +798,7 @@ body::after {
 
     circle at top,
 
-    rgba(255,0,0,.12),
+    rgba(255,0,0,.15),
 
     transparent 40%
 
@@ -767,6 +809,8 @@ body::after {
 
 
 }
+
+
 
 
 
@@ -850,6 +894,7 @@ body::after {
 
 
 }
+
 
 
 }
