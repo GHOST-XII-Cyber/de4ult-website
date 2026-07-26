@@ -1,13 +1,37 @@
-// DE4ULT COIN Website Script
-
-console.log("DE4ULT COIN website loaded successfully");
+function showSection(sectionID){
 
 
-const launchButton = document.querySelector("button");
+    let sections = document.querySelectorAll(".section");
 
 
-launchButton.addEventListener("click", function(){
+    sections.forEach(function(section){
 
-    alert("DE4ULT COIN App Launching Soon 🚀");
+        section.classList.remove("show-section");
 
-});
+        section.classList.add("hidden-section");
+
+    });
+
+
+
+    let selected = document.getElementById(sectionID);
+
+
+
+    if(selected){
+
+        selected.classList.remove("hidden-section");
+
+        selected.classList.add("show-section");
+
+
+        selected.scrollIntoView({
+
+            behavior:"smooth"
+
+        });
+
+    }
+
+
+}
